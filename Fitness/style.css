@@ -1,0 +1,222 @@
+body {
+   background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; 
+}
+
+nav {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#nav-mobile li a:hover {
+    background-color: #4d4848;
+    transition: color 0.3s;
+}
+
+.brand-logo {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    font-family: 'Black Ops One';
+}
+
+#nav-mobile {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 10px;
+}
+
+#nav-mobile li {
+    margin: 0 10px;
+}
+
+#nav-mobile a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidenav-trigger:hover {
+    color: #4d4848; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.home1 {
+    background-image: url('images/slider1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #000000;
+    height: 517px;
+    padding-top: 150px;
+}
+
+.info1{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.home2{
+    padding: 1rem 7%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.info2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home3 {
+    background: black;
+    background-size: cover;
+    text-align: center;
+    height: 200px;
+    padding-top: 60px;
+}
+
+.info3 {
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+
+.home4{
+    padding: 1rem 7%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.info4{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home5{
+    padding: 1rem 7%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.info5{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: translate(0, -5px); 
+    transition: transform 0.5s ease;
+}
+
+footer {
+    background-color: black;
+    color: white; 
+    text-align: center; 
+    padding: 5px; 
+}
+
+.about-us {
+    padding: 4rem 7%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-about {
+    flex: 1;
+    padding: 20px;
+}
+
+.inner-about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.inner-content-about {
+    flex: 1;
+}
+
+.inner-content-about h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.inner-content-about p {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+.right-image {
+    background-color: white;
+}
+
+.right-image .inner-content-about h2,
+.right-image .inner-content-about p {
+    color: black;
+}
+
+.meal-plan{
+    background-image: url('images/meal-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sidenav {
+    position: fixed;
+    z-index: 1002;
+    background-color: black;
+    color: white;
+}
+
+.sidenav li a {
+    color: white;
+}
+
+.sidenav li a:hover {
+    background-color: #333;
+}
+
+.modal {
+    margin-top: 50px;
+}
+
+.divider {
+    border-top: 1px solid black;
+}
+
+.tabs {
+    background-color: black; 
+  }
+
+.custom-card {
+    background-color: black;
+    color: white;
+}
+.custom-card .card-reveal {
+    background-color: black;
+    color: white;
+}
+  

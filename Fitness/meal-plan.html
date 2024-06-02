@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plan</title>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3c399f8611.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black Ops One">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+<body class="meal-plan">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                FitFusion
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="meal-plan.html">Meal Plan</a></li>
+                <li><a href="workout.html">Workout Routine</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Mobile menu (Hamburger) -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="meal-plan.html">Meal Plan</a></li>
+        <li><a href="workout.html">Workout Routine</a></li>
+    </ul>
+
+<div class="container">
+    <!-- Breakfast Section -->
+    <br><br><br>
+    <h2 class="black-text center">Breakfast</h2>
+    <div class="divider"></div>
+    <br>
+
+    <!-- First Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Mushroom Omelette</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/omelette.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal1" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- First Modal -->
+    <div id="modal1" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Mushroom Omelette Recipe</h4>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <img src="images/omelette.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>2 cups sliced mushrooms</li>
+                        <li>2 cups fresh spinach leaves</li>
+                        <li>4 eggs</li>
+                        <li>Salt and pepper to taste</li>
+                        <li>Optional toppings: grated cheese, chopped herbs</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Heat a non-stick pan over medium heat.</li>
+                        <li>2. Add sliced mushrooms and cook until they release their moisture.</li>
+                        <li>3. Add spinach leaves and cook until wilted.</li>
+                        <li>4. In a separate bowl, beat eggs with salt and pepper.</li>
+                        <li>5. Pour the egg mixture over the mushrooms and spinach in the pan.</li>
+                        <li>6. Cook until the omelette is set, then fold it in half.</li>
+                        <li>7. Optional: Sprinkle grated cheese or chopped herbs on top.</li>
+                        <li>8. Remove from heat and serve hot.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Second Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Overnight Chia Pudding</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/oats.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal2" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Second Modal -->
+    <div id="modal2" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal2"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Overnight Chia Pudding Recipe</h4>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <img src="images/oats.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test2">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1/4 cup chia seeds</li>
+                        <li>1 cup milk of your choice (e.g., almond milk, coconut milk)</li>
+                        <li>1 tablespoon sweetener (e.g., honey, maple syrup)</li>
+                        <li>Optional toppings: fresh fruits, nuts, seeds</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. In a jar or container, combine chia seeds, milk, and sweetener.</li>
+                        <li>2. Stir well to ensure the chia seeds are fully immersed in the liquid.</li>
+                        <li>3. Cover the jar/container and refrigerate overnight or for at least 4 hours.</li>
+                        <li>4. In the morning, give the pudding a good stir to break up any clumps.</li>
+                        <li>5. Optional: Add your favorite toppings, such as fresh fruits, nuts, or seeds.</li>
+                        <li>6. Enjoy the creamy and nutritious overnight chia pudding!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Avocado Toast</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/avocado.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal3" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Third Modal -->
+    <div id="modal3" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal3"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Avocado Toast Recipe</h4>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <img src="images/avocado.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test3">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 ripe avocado</li>
+                        <li>1 slice of whole-grain bread</li>
+                        <li>Salt and pepper to taste</li>
+                        <li>Optional toppings: egg, sliced tomatoes, feta cheese, red pepper flakes</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Toast the slice of whole-grain bread until golden brown.</li>
+                        <li>2. Halve the ripe avocado and remove the pit.</li>
+                        <li>3. Scoop out the avocado flesh and spread it evenly on the toasted bread.</li>
+                        <li>4. Season with salt and pepper to taste.</li>
+                        <li>5. Add your optional toppings.</li>
+                        <li>6. Enjoy the delicious and nutritious Avocado Toast!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Main Dishes -->
+    <br>
+    <div class="row">
+        <div class="col s12">
+            <h2 class="black-text center">Main Dishes</h2>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <br>
+
+    <!-- Fourth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Baked Salmon</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/salmon.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal4" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Fourth Modal -->
+    <div id="modal4" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Baked Salmon Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/salmon.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>4 salmon fillets</li>
+                        <li>2 tablespoons olive oil</li>
+                        <li>2 cloves garlic, minced</li>
+                        <li>1 lemon, sliced</li>
+                        <li>Salt and black pepper to taste</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Preheat your oven to 375°F (190°C).</li>
+                        <li>2. Place the salmon fillets on a baking sheet lined with parchment paper.</li>
+                        <li>3. Drizzle olive oil over the salmon fillets and rub them with minced garlic.</li>
+                        <li>4. Season the salmon with salt and black pepper to taste.</li>
+                        <li>5. Place lemon slices on top of each salmon fillet.</li>
+                        <li>6. Bake the salmon in the preheated oven for about 15-20 minutes or until it easily flakes with a fork and is cooked to your desired level of doneness.</li>
+                        <li>7. Remove the baked salmon from the oven and serve immediately.</li>
+                        <li>8. Enjoy!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fifth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Stir-Fried Vegetables</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/stir fry.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal5" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Fifth Modal -->
+    <div id="modal5" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Stir-Fried Vegetables Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/stir fry.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 cup of pulled oats</li>
+                        <li>2 tablespoons olive oil</li>
+                        <li>1 onion, sliced</li>
+                        <li>2 cloves of garlic, minced</li>
+                        <li>Assorted vegetables (bell peppers, zucchini, carrots, broccoli)</li>
+                        <li>1/4 cup of soy sauce</li>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Rehydrate pulled oats according to package instructions.</li>
+                        <li>2. Heat oil in a pan and sauté sliced onion and minced garlic until fragrant.</li>
+                        <li>3. Add assorted vegetables and stir-fry until they start to become tender.</li>
+                        <li>4. Incorporate the rehydrated pulled oats into the mix.</li>
+                        <li>5. Combine soy sauce, salt, and pepper in a small bowl. Pour the sauce over the mixture.</li>
+                        <li>6. Stir-fry for a few more minutes until everything is heated through and coated in sauce.</li>
+                        <li>7. Transfer to a platter and enjoy your easy Stir-Fried Vegetables with Pulled Oats.</li>
+                        <li>8. Enjoy it with rice or noodles!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sixth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Shrimp Curry</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/shrimp.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal6" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Sixth Modal -->
+    <div id="modal6" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Shrimp Curry Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/shrimp.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 pound of shrimp, peeled and deveined</li>
+                        <li>1 can of coconut milk (13.5 oz)</li>
+                        <li>2 tablespoons of curry powder</li>
+                        <li>1 onion, finely chopped</li>
+                        <li>2 cloves of garlic, minced</li>
+                        <li>1 tablespoon of vegetable oil</li>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. In a pan, heat vegetable oil over medium heat. Sauté chopped onion and minced garlic until soft.</li>
+                        <li>2. Stir in curry powder and cook for a couple of minutes to enhance the flavor.</li>
+                        <li>3. Pour in the can of coconut milk and let it simmer for a few minutes.</li>
+                        <li>4. Add the peeled and deveined shrimp and cook for about 4-5 minutes until they turn pink.</li>
+                        <li>5. Season with salt and pepper to taste.</li>
+                        <li>6. Stir-fry for a few more minutes until everything is heated through and coated in sauce.</li>
+                        <li>7. Transfer to a platter and enjoy your easy Stir-Fried Vegetables with Pulled Oats.</li>
+                        <li>8. It pairs perfectly with rice or naan bread. Enjoy!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Soups and Salads-->
+    <div class="row">
+        <div class="col s12">
+            <h2 class="black-text center">Soups and Salads</h2>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <br>
+
+    <!-- Seventh Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Caesar Salad</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/caesar.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal7" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Seventh Modal-->
+    <div id="modal7" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Caesar Salad Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/caesar.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <h7 style="font-weight: bold;">For the salad:</h7>
+                        <li>1 head of Romaine lettuce, washed and torn into bite-sized pieces</li>
+                        <li>1 cup of croutons</li>
+                        <li>1/2 cup of grated Parmesan cheese</li>
+                        <li>Optional: Grilled chicken, shrimp, or anchovies for added protein</li>
+                        <br>
+                        <h7 style="font-weight: bold;">For the dressing:</h7>
+                        <li>1/2 cup of mayonnaise</li>
+                        <li>1/4 cup of grated Parmesan cheese</li>
+                        <li>2 tablespoons of fresh lemon juice</li>
+                        <li>1 teaspoon of Dijon mustard</li>
+                        <li>2 cloves of garlic, minced</li>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. In a bowl, whisk together mayonnaise, grated Parmesan, lemon juice, Dijon mustard, minced garlic, salt, and pepper. Adjust the seasonings to your taste.</li>
+                        <li>2. In a large salad bowl, combine the torn Romaine lettuce and croutons. Add the optional protein if desired.</li>
+                        <li>3. Drizzle the dressing over the salad. Start with a small amount and add more as needed. Toss the salad to coat the lettuce evenly.</li>
+                        <li>4. Sprinkle the grated Parmesan cheese on top of the salad.</li>
+                        <li>5. Your classic Caesar Salad is ready to be served. Enjoy as a side dish or add your favorite protein for a complete meal.</li>
+                        <li>6. Enjoy!</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!--Eighth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Pumpkin Soup</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/pumpkin.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal8" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Eighth Modal-->
+    <div id="modal8" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Pumpkin Soup Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/pumpkin.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 can (15 oz) of pumpkin puree</li>
+                        <li>1 can (14 oz) of chicken or vegetable broth</li>
+                        <li>1/2 cup of heavy cream</li>
+                        <li>1/2 teaspoon of ground cinnamon</li>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. In a saucepan, combine the pumpkin puree and chicken or vegetable broth.</li>
+                        <li>2. Heat the mixture over medium heat, stirring occasionally, until it's heated through.</li>
+                        <li>3. Stir in the heavy cream and ground cinnamon. Continue to heat the soup, but do not let it come to a boil.</li>
+                        <li>4. Season with salt and pepper to taste.</li>
+                        <li>5. Once the soup is hot and well-blended, it's ready to be served.</li>
+                        <li>6. Pour the simple pumpkin soup into bowls and enjoy.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Ninth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Burrata Salad</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/burrata.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal9" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Ninth Modal-->
+    <div id="modal9" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Burrata Salad Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/burrata.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>2 ripe tomatoes, sliced</li>
+                        <li>1 ball of fresh Burrata cheese</li>
+                        <li>Fresh basil leaves</li>
+                        <li>Extra-virgin olive oil</li>
+                        <li>Balsamic vinegar or balsamic glaze</li>
+                        <li>Salt and pepper to taste</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Slice the ripe tomatoes and arrange them on a serving plate.</li>
+                        <li>2. Place the fresh Burrata cheese in the center of the sliced tomatoes.</li>
+                        <li>3. Tear or arrange fresh basil leaves around the Burrata and tomatoes.</li>
+                        <li>4. Drizzle extra-virgin olive oil over the salad, ensuring it covers the cheese, tomatoes, and basil.</li>
+                        <li>5. Drizzle balsamic vinegar or balsamic glaze over the salad for added flavor.</li>
+                        <li>6. Sprinkle salt and pepper to taste.</li>
+                        <li>7. Your delicious Burrata Salad is ready to be served!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Desserts-->
+<div class="row">
+    <div class="col s12">
+        <h2 class="black-text center">Desserts</h2>
+    </div>
+</div>
+<div class="divider"></div>
+<br>
+
+<!-- Tenth Card -->
+<div class="row">
+    <div class="col s12 m4">
+        <div class="card">
+            <div class="card-content center-align" style="padding: 8px;">
+                <p style="font-weight: bold;">Blueberry Parfait</p>
+            </div>
+            <div class="card-image center-align">
+                <img src="images/parfait.jpg">
+            </div>
+            <div class="center-align" style="padding: 8px;">
+                <a href="#modal10" class="modal-trigger btn black white-text center-align">Recipe</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Tenth Modal-->
+    <div id="modal10" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Blueberry Parfait Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/parfait.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 cup of fresh blueberries</li>
+                        <li>1 cup of vanilla yogurt</li>
+                        <li>1/2 cup of granola</li>
+                        <li>Honey for drizzling (optional)</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Wash the fresh blueberries and set them aside.</li>
+                        <li>2. In a glass or a bowl, start by adding a layer of vanilla yogurt at the bottom.</li>
+                        <li>3. Next, add a layer of fresh blueberries on top of the yogurt.</li>
+                        <li>4. Sprinkle a layer of granola over the blueberries. This adds a delicious crunch to the parfait.</li>
+                        <li>5. Repeat the layers by adding more yogurt, blueberries, and granola until the glass or bowl is filled.</li>
+                        <li>6. If you like a touch of sweetness, you can drizzle a bit of honey over the top.
+                        </li>
+                        <li>7. Enjoy!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Eleventh Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Mixed Berries Smoothie</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/smoothie.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal11" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Eleventh Modal-->
+    <div id="modal11" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Mixed Berries Smoothie Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/smoothie.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 ripe banana</li>
+                        <li>1 cup of mixed berries</li>
+                        <li>1/2 cup of Greek yogurt</li>
+                        <li>1/2 cup of milk</li>
+                        <li>1 tablespoon of honey</li>
+                        <li>Ice cubes</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Peel the ripe banana and wash the mixed berries if they're fresh. You can also use frozen berries.</li>
+                        <li>2. In a blender, combine the banana, mixed berries, Greek yogurt, and milk.</li>
+                        <li>3. If you prefer a sweeter smoothie, add a tablespoon of honey at this stage.</li>
+                        <li>4. Blend all the ingredients until you have a smooth and creamy consistency. If you like a colder smoothie, you can add a few ice cubes and blend again.</li>
+                        <li>5. Taste the smoothie and adjust the sweetness or thickness by adding more honey or milk if needed.</li>
+                        <li>6. Enjoy!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Twelveth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Oatmeal Cookies</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/cookies.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal12" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Twelveth Modal-->
+    <div id="modal12" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Oatmeal Cookies Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/cookies.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 cup of butter, softened</li>
+                        <li>1 cup of sugar</li>
+                        <li>1 cup of brown sugar</li>
+                        <li>2 eggs</li>
+                        <li>1 teaspoon of vanilla extract</li>
+                        <li>2 cups of rolled oats</li>
+                        <li>1 1/2 cups of all-purpose flour</li>
+                        <li>1 teaspoon of baking soda</li>
+                        <li>1/2 teaspoon of salt</li>
+                        <li>1/2 teaspoon of salt</li>
+                        <li>Optional: 1 cup of chocolate chips or raisins</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Preheat your oven to 350°F (175°C).</li>
+                        <li>2. In a large bowl, cream together the softened butter, sugar, and brown sugar until it's smooth and creamy.</li>
+                        <li>3. Beat in the eggs one at a time and then stir in the vanilla extract.</li>
+                        <li>4. In a separate bowl, combine the rolled oats, flour, baking soda, and salt.</li>
+                        <li>5. Gradually add the dry ingredients to the wet mixture and mix until well combined. If you like, you can also add chocolate chips or raisins to the dough.</li>
+                        <li>6. Drop spoonfuls of the cookie dough onto an ungreased baking sheet.</li>
+                        <li>7. Bake in the preheated oven for about 10 to 12 minutes or until the edges are golden but the centers are still soft.</li>
+                        <li>8. Allow the cookies to cool on the baking sheet for a few minutes, and then transfer them to a wire rack to cool completely.</li>
+                        <li>9. Once they've cooled, serve and enjoy your simple and delicious oatmeal cookies!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snacks-->
+    <div class="row">
+        <div class="col s12">
+            <h2 class="black-text center">Snacks</h2>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <br>
+
+    <!-- Thirteenth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Strawberry Spring Rolls</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/rolls.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal13" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Thirteenth Modal-->
+    <div id="modal13" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Strawberry Spring Rolls Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/rolls.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>6 spring roll wrappers</li>
+                        <li>2 cups fresh spinach leaves</li>
+                        <li>1 cup fresh strawberries, hulled and sliced</li>
+                        <li>1/2 cup cooked and cooled rice noodles (optional)</li>
+                        <li>Fresh mint leaves</li>
+                        <li>Dipping sauce (e.g., sweet chili sauce or peanut sauce)</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. Fill a shallow dish with warm water. Submerge one spring roll wrapper at a time for about 10-15 seconds or until it softens. Remove and place on a clean, damp kitchen towel.</li>
+                        <li>2. Lay a few spinach leaves on the bottom half of the softened spring roll wrapper. Add a few slices of strawberries, a small amount of rice noodles (if using), and a few fresh mint leaves.</li>
+                        <li>3. Fold the sides of the spring roll wrapper over the filling. Then, starting from the bottom, roll up the wrapper tightly.</li>
+                        <li>4. Repeat the process with the remaining ingredients. Once all the spring rolls are made, you can serve them as is or slice them in half diagonally. Serve with your choice of dipping sauce.</li>
+                        <li>5. Enjoy!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fourteenth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Fruit Pancakes</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/pancake.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal14" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Fourteenth Modal-->
+    <div id="modal14" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Fruit Pancakes Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/pancake.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 cup all-purpose flour</li>
+                        <li>2 tablespoons sugar</li>
+                        <li>1 teaspoon baking powder</li>
+                        <li>1/2 teaspoon baking soda</li>
+                        <li>1/4 teaspoon salt</li>
+                        <li>1 cup buttermilk</li>
+                        <li>1 large egg</li>
+                        <li>2 tablespoons melted butter or oil</li>
+                        <li>1/2 cup diced fresh fruit (e.g., berries, banana, or apple)</li>
+                        <li>Butter or oil for greasing the skillet</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>In a bowl, combine the flour, sugar, baking powder, baking soda, and salt.</li>
+                        <li>1. In another bowl, whisk together the buttermilk, egg, and melted butter or oil.</li>
+                        <li>2. Pour the wet ingredients into the dry ingredients and stir until just combined. Don't worry about a few lumps.</li>
+                        <li>3. Gently fold in the diced fresh fruit.</li>
+                        <li>4. Preheat a skillet or griddle over medium-high heat and lightly grease it. Pour 1/4 cup of the pancake batter onto the skillet for each pancake.</li>
+                        <li>5. Cook until bubbles form on the surface, then flip and cook the other side until it's golden brown.</li>
+                        <li>6. Remove the pancakes from the skillet and serve with additional fresh fruit on top and your favorite syrup.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fifteenth Card -->
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-content center-align" style="padding: 8px;">
+                    <p style="font-weight: bold;">Trail mix</p>
+                </div>
+                <div class="card-image center-align">
+                    <img src="images/nuts.jpg">
+                </div>
+                <div class="center-align" style="padding: 8px;">
+                    <a href="#modal15" class="modal-trigger btn black white-text center-align">Recipe</a>
+                </div>
+            </div>
+        </div>
+
+    <!--Fifteenth Modal-->
+    <div id="modal15" class="modal">
+        <div class="modal-content white black-text">
+            <a class="modal-close waves-effect waves-light btn-flat right" id="close-modal1"><i class="material-icons">close</i></a>
+            <div style="text-align: center;">
+                <h4 style="font-weight: bold;">Trail mix Recipe</h4>
+            </div>                
+            <div style="display: flex; justify-content: center;">
+                <img src="images/nuts.jpg" width="300" height="200">
+            </div>
+            <div class="row">
+                <div class="col s12" id="test1">
+                    <h6 style="font-weight: bold;">Ingredients</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1 cup of mixed nuts (e.g., almonds, cashews, peanuts)</li>
+                        <li>1/2 cup of dried fruits (e.g., raisins, cranberries, apricots)</li>
+                        <li>1/2 cup of whole-grain cereal (e.g., Cheerios, Chex)</li>
+                        <li>1/4 cup of dark chocolate chips or chunks</li>
+                        <li>1/4 cup of seeds (e.g., pumpkin seeds, sunflower seeds)</li>
+                        <li>1/4 cup of pretzels (optional for added crunch)</li>
+                        <li>1/2 teaspoon of salt (adjust to taste)</li>
+                        <li>1/2 teaspoon of cinnamon (optional)</li>
+                    </ul>
+                    <h6 style="font-weight: bold;">Instructions</h6>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li>1. In a large mixing bowl, combine the mixed nuts, dried fruits, whole-grain cereal, seeds, and pretzels (if using).</li>
+                        <li>2. Add the dark chocolate chips or chunks to the mix.</li>
+                        <br>
+                        <h7 style="font-weight: bold;">Note: If you prefer your chocolate not to melt, you can wait until the mix has cooled down before adding the chocolate.</h7>
+                        <br><br>
+                        <li>3. Sprinkle the salt and cinnamon (if using) over the mix.</li>
+                        <li>4. Toss all the ingredients together to ensure an even distribution of flavors.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large green">
+        <i class="large material-icons">more_horiz</i>
+    </a>
+    <ul>
+        <li><a class="btn-floating red"><i class="material-icons">chat</i></a></li>
+        <li><a class="btn-floating purple"><i class="material-icons">notifications</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">phone</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">person</i></a></li>
+    </ul>
+</div>
+
+
+            
+ <!-- jQuery CDN -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+ <script>
+    $(document).ready(function(){
+        // Sidenav Initialize
+        $('.sidenav').sidenav({
+            edge: 'right',
+            inDuration: 1000,
+            outDuration: 1000
+        });
+        //Modal Initialize
+        $('.modal').modal();
+
+        $('.fixed-action-btn').floatingActionButton();
+    });
+</script>
+</body>
+</html>

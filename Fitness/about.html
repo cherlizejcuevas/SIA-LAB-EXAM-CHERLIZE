@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3c399f8611.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Ops+One">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                FitFusion
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="meal-plan.html">Meal Plan</a></li>
+                <li><a href="#!">Workout Routine</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Mobile menu (Hamburger) -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="meal-plan.html">Meal Plan</a></li>
+        <li><a href="workout.html">Workout Routine</a></li>
+    </ul>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/vis.jpg"></div>
+    </div>
+    
+    <!-- Content section -->
+    <div class="section black">
+        <div class="row container">
+            <h2 class="header white-text">Mission</h2>
+            <p class="white-text">FitFusion is committed to transforming lives through the perfect synergy of fitness and nutrition. Our mission is to empower individuals to achieve their optimal well-being by providing accessible and expertly curated workout routines and diet plans. We're dedicated to supporting a healthier, stronger, and more balanced you, ensuring that every step of your fitness journey leads to lasting vitality and well-being.</p>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/vision.jpg"></div>
+    </div>
+    
+    <!-- Content section -->
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">Vision</h2>
+            <p class="grey-text text-darken-3 lighten-3">FitFusion envisions a world where health and fitness are not just pursuits but a way of life, where individuals from all walks of life find inspiration to prioritize their well-being. We see a future where FitFusion is synonymous with empowerment, where our platform is the compass guiding individuals on their journey to a healthier, happier, and more energized existence. Together, we aim to create a world where the fusion of fitness and nutrition is not only a personal choice but a collective movement towards a brighter and more vibrant tomorrow.</p>
+        </div>
+    </div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large green">
+          <i class="large material-icons">more_horiz</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red"><i class="material-icons">chat</i></a></li>
+          <li><a class="btn-floating purple"><i class="material-icons">notifications</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">phone</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">person</i></a></li>
+        </ul>
+      </div>
+
+    <footer>
+        <p>© 2023 FitFusion by Cherlize Cuevas</p>
+    </footer>
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Sidenav Initialize
+        $('.sidenav').sidenav({
+            edge: 'right',
+            inDuration: 1000,
+            outDuration: 1000
+        });
+        // Parallax Initialize
+        $('.parallax').parallax();
+
+        $('.fixed-action-btn').floatingActionButton();
+    });
+</script>
+</body>
+</html>
